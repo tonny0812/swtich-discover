@@ -6,6 +6,10 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "encoding": "^0.1.12",
+    "iconv-lite": "^0.4.17",
+    "jschardet": "^1.4.2",
+    "ping": "^0.2.2",
     "snmp-native": "^1.1.0"
   }
 }
