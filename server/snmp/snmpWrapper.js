@@ -8,7 +8,8 @@ SNMPSession.prototype.get = function(oid) {
     return new Promise(function(resolve, reject) {
             this.session.get({oid: oid}, function(error, varbinds) {
                 if(error) {
-                    return reject(error);
+                    // return reject(error);
+                     return resolve([]);
                 } else {
                     return resolve(varbinds);
                 }
